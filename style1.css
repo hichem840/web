@@ -1,1 +1,76 @@
-jvkfn 
+*, ::before, after:: {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container-first {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 110px;
+  color: #f1f1f1;
+  font-family: Abril fatface;
+}
+
+h1 span {
+  position: relative;
+}
+
+.container-btns {
+  position: relative;
+  top: 50px;
+}
+
+.btn-first {
+  border: 2px solid #f1f1f1;
+  outline: none;
+  background: transparent;
+  font-size: 30px;
+  padding: 20px;
+  width: 300px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn-first:hover {
+  transition: all 0.3s ease-in-out;
+  background: #f1f1f1;
+  color: #333;
+}
+
+.lignes {
+  position: absolute;
+  top: 6%;
+  left: 5%;
+}
+.l1 {
+  width: 250px;
+  height: 3px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.l2 {
+  width: 250px;
+  height: 3px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+}
